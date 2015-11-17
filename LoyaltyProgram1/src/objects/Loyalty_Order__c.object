@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>First_name__c</fullName>
+        <description>Submitters First Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Submitters First Name</inlineHelpText>
+        <label>First Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Name__c</fullName>
+        <description>Submitter&apos;s Last Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Submitter&apos;s Last Name</inlineHelpText>
+        <label>Last Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Number__c</fullName>
+        <description>Bio-Rad Generated Loyalty Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Bio-Rad Supplied Loyalty Number</inlineHelpText>
+        <label>Loyalty_Number</label>
+        <length>28</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order_Submit_Date__c</fullName>
+        <defaultValue>TODAY()</defaultValue>
+        <description>Date the Loyalty Order is entered</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the Loyalty Order is entered</inlineHelpText>
+        <label>Order Submit Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Owner_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Owner Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Name__c</fullName>
+        <description>Bio-Rad CFX Product Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Bio-Rad CFX Product Name</inlineHelpText>
+        <label>Product Name</label>
+        <length>120</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Purchase_Order_Number__c</fullName>
+        <description>Customer PO NUmber</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer PO Number</inlineHelpText>
+        <label>Purchase Order Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Order_Number__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Bio-Rad Issued Sales Order Number</inlineHelpText>
+        <label>Sales Order Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Serial_Number__c</fullName>
+        <description>CFX Device Serial Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Your CFX Serial Number</inlineHelpText>
+        <label>Serial_Number</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Email__c</fullName>
+        <description>Order submitter email</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Order submitter email</inlineHelpText>
+        <label>User Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <label>Loyalty Order</label>
+    <nameField>
+        <label>Loyalty Order Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Loyalty Orders</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>
